@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+/* RESET Y GENERALES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Patrick Hand', cursive;
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 20px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+h2 {
+    font-size: 32px;
+    color: #ff6600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 26px;
+    color: #db820e;
+    margin: 30px 0 10px;
+    text-align: center;
+}
+
+p {
+    max-width: 800px;
+    margin: 10px auto;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+a {
+    color: #db820e;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #333;
+}
+
+.caja-redondeada {
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fffaf0;
+    margin: 10px auto;
+    max-width: 1200px;
+}
+
+/* FORMULARIO */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-align: left;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #e65500;
+}
+
+/* FOOTER NAV CON GRID */
+footer ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body {
+    font-family: 'Patrick Hand', cursive;
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 20px;
+}
+
+header, footer {
+    background-color: #f5deb3;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid #ff9900;
+    margin-bottom: 20px;
+}
+
+.caja-redondeada {
+    border-radius: 25px;
+}
+
+.titulo {
+    font-size: 48px;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    color: #ff6600;
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 10px;
+}
+
+main {
+    padding: 30px 0;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-size: 32px;
+    color: #ff6600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 26px;
+    color: #db820e;
+    margin: 30px 0 10px;
+    text-align: center;
+}
+
+p {
+    max-width: 800px;
+    margin: 10px auto;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.personaje {
+    color: #ce5a0e;
+    font-size: 25px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    max-height: 500px;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+
+.contenedorActores {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.actor {
+    width: 200px;
+    text-align: center;
+}
+
+.actor img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nombreActor {
+    font-size: 25px;
+    color: #cc6a29;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+ol {
+    padding-left: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+ol li {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+ol li ul {
+    margin-top: 5px;
+    list-style: disc;
+    padding-left: 20px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+footer ul li img {
+    height: 35px;
+}
