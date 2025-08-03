@@ -1,5 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 30px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 0;
+    }
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li a {
+        display: block;
+        width: 100%;
+        font-size: 18px;
+        padding: 12px 0;
+    }
+    nav ul li a:hover {
+    background-color: rgba(255, 102, 0, 0.1);
+}
+
+    p, h2, h3 {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+
+    form {
+        width: 90%;
+        padding: 15px;
+    }
+
+    input, textarea, button {
+        font-size: 16px;
+    }
+
+    .contenedorActores {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .actor {
+        width: 90%;
+    }
+
+    .actor img,
+    img {
+        width: 100%;
+        max-height: 300px;
+        height: auto !important;
+    }
+
+    audio {
+        width: 100%;
+    }
+
+    footer ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    footer ul li img {
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+}
+
+
+    ol {
+        padding: 0 20px;
+    }
+
+    section {
+        margin-bottom: 30px;
+    }
+
+    .caja-redondeada {
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
+
+
+
 body {
     font-family: 'Patrick Hand', cursive;
     background-color: #f2f2f2;
